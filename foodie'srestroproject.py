@@ -75,7 +75,7 @@ def ad_login():
 
 def ad_panel():
     pas = input("Enter Admin Password: ")
-    if pas == 'Zomato':
+    if pas == 'HeartisRed':
         print("Access granted") 
         ad_login()
     else:
