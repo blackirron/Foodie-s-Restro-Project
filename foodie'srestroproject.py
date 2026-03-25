@@ -1,6 +1,6 @@
-import mysql.connector as pro
+import mysql.connector as sqlconnector
 try:
-    d = pro.connect(host="localhost", user="root", password="admin", database="food")
+    d = sqlconnector.connect(host="localhost", user="root", password="admin", database="food")
     e = d.cursor()
 except pro.Error as err:
     print(f"Error: {err}")
